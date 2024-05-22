@@ -1,0 +1,114 @@
+body {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #21272b;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    background-color: #21272b;
+    padding: 2px;
+}
+h1{
+    font-weight: bold;
+    color: #1bb4e8;
+}
+h2{
+    color: white;
+}
+.b1 {
+    width: 40px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    margin-left: 45%;
+    margin-top: 4%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px 1px;
+    font-size: 12px;
+}
+
+nav a:hover {
+    background-color: #4fb5e2;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.fotobanner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner .text {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.banner h3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 24px;
+}
+
+section {
+    display: flex;
+    padding: 20px;
+}
+
+
+.destinos, .frota {
+    width: 50%;
+    padding: 20px;
+}
+
+.destinos img{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.titulodestino{
+    display: flex;
+    align-items: center;
+    background-color: #1bb4e8;
+    padding: 2px;
+    color: white;
+}
+.fotodestino{
+    width: 35px;
+}
+.titulonossafrota{
+    display: flex;
+    align-items: center;
+    background-color: #c6b07f;
+    padding: 2px;
+    color: white;
+}
+.fotonossafrota{
+    width: 35px;
+}
+footer {
+    background-color: lightgray;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
